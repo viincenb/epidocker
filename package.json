@@ -14,5 +14,8 @@
   "dependencies": {
     "args": "^3.0.8"
   },
-  "repository": "https://github.com/devSwoop/epidocker"
+  "repository": "https://github.com/devSwoop/epidocker",
+  "bin": {
+  	"epidocker": "bin/index"
+  }
 }
