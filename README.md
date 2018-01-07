@@ -9,7 +9,7 @@ Docker CLI wrapper for Epitech
 `./install.sh`
 
 ### If you do not have node installed
-Install node
+Install node on https://nodejs.org/en/download/
 
 ## Usage
 
