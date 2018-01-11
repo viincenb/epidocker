@@ -3,7 +3,7 @@ Docker CLI wrapper for Epitech
 
 ## Install
 
-Install the latest version of NodeJs (https://nodejs.org/en/download/)<br>
+Install the latest version of NodeJs (https://nodejs.org/en/download/package-manager/)<br>
 Then you'll be able to `sudo npm install -g epidocker`<br>
 
 ## Usage
