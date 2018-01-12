@@ -24,3 +24,6 @@ You can get the list of all the containers you created with `epidocker list`.<br
 
 You can delete a container with `epidocker delete [container name]` and you can go back in a created container by typing `epidocker run [container name]`.<br><br>
 
+## Known issues
+
+_Nothing here for now, report me your issues !_
