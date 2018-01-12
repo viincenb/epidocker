@@ -10,7 +10,7 @@ Docker CLI wrapper for Epitech
 
 ## Update
 
-To update your epidocker, just run `sudo npm update -g epidocker`
+To update your epidocker, just run `epidocker update` (since 1.1.3), it will check for updates and do the update if necessary.
 
 ## Usage
 
