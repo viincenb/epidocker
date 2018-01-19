@@ -25,9 +25,7 @@ You don't have to rerun anything, just do what you have to do !<br><br>
 
 #### And you just wrote two words.<br><br>
 
-You can get the list of all the containers you created with `epidocker list`.<br><br>
-
-You can delete a container with `epidocker delete [container name]` and you can go back in a created container by typing `epidocker run [container name]`.<br><br>
+Containers are automatically removed since 1.2.0, don't worry about ghost containers.<br><br>
 
 ## Known issues
 
