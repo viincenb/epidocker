@@ -1,7 +1,7 @@
 ## epidocker
 Docker CLI wrapper for Epitech<br><br>
 
-Current version __1.2.0__
+Current version __1.2.1__
 
 ## Install
 
@@ -27,7 +27,11 @@ You don't have to rerun anything, just do what you have to do !<br><br>
 
 #### And you just wrote two words.<br><br>
 
-Containers are automatically removed since 1.2.0, don't worry about ghost containers.<br><br>
+Containers are automatically removed, don't worry about ghost containers.<br><br>
+
+Run with `--save` flag will save the container. You can get the list of all the containers you created with `epidocker list`.
+
+You can delete a container with `epidocker delete [container name]` and you can go back in a created container by typing `epidocker run [container name]`.
 
 ## Known issues
 
