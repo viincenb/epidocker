@@ -1,5 +1,7 @@
 ## epidocker
-Docker CLI wrapper for Epitech
+Docker CLI wrapper for Epitech<br><br>
+
+Current version __1.2.0__
 
 ## Install
 
