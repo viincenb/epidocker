@@ -12,10 +12,11 @@
   "author": "devSwoop",
   "license": "ISC",
   "dependencies": {
-    "args": "^3.0.8"
+    "args": "^3.0.8",
+    "chokidar": "^2.0.0"
   },
   "repository": "https://github.com/devSwoop/epidocker",
   "bin": {
-  	"epidocker": "bin/index"
+    "epidocker": "bin/index"
   }
 }
