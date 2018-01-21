@@ -1,7 +1,7 @@
 ## epidocker
 Docker CLI wrapper for Epitech<br><br>
 
-Current version __1.2.1__
+Current version __1.3.0__
 
 ## Install
 
@@ -18,20 +18,41 @@ To update your epidocker, just run `epidocker update` (since 1.1.3), it will che
 
 See `epidocker -h`
 
-The main command is `epidocker run`, it brings you to a Docker container with the content of you current directory in _/home/student/local_repository_.<br><br>
+__Basic__
 
-For example, running `epidocker run` in _/home/epitech/my_project_  will create a container with your project in _/home/student/my_project_.<br><br>
+The main command is `epidocker run`.<br>
+It brings you to a Docker container and link the content of your current directory with the container. Every changes you will make will be shared bewteen your machine and the Docker container.<br>
 
-Oh, and the directory is _shared_, it means that every changes you'll make will be shared between your container and your local machine.<br>
-You don't have to rerun anything, just do what you have to do !<br><br>
-
-#### And you just wrote two words.<br><br>
-
-Containers are automatically removed, don't worry about ghost containers.<br><br>
-
-Run with `--save` flag will save the container. You can get the list of all the containers you created with `epidocker list`.
+Containers are automatically removed, don't worry about ghost containers.<br>
+If you do not want to remove your container at exit, run `epidocker run --save`. You can get the list of all the containers you created with `epidocker list`.
 
 You can delete a container with `epidocker delete [container name]` and you can go back in a created container by typing `epidocker run [container name]`.
+
+__Hot reloading__
+
+Do not run your compile command each time you did a change, epidocker will do it for you. You juste have to configure it a bit.<br>
+First, you need to add a `.epidocker` file at the root of your project, you will write your configuration in this file as JSON.<br>
+Here a basic example:
+
+ ```json
+ {
+	"commands" : {
+		"refresh" : "make && ./my_binary arg1 arg2 ...",
+		"test" : "make test"
+	},
+	"hotreload" : {
+		"active" : true,
+		"command" : "refresh",
+		"watch" : ["src", "include", "Makefile"]
+	}
+}
+```
+
+You can define some commands in the `commands` object.<br>
+To activate the hot reloading, you have to specify it by setting `active: true` to the `hotreload` object<br>
+Then you have to specify what command you want to run<br>
+and what files or directory to watch.<br>
+Once you have done this, you can run `epidocker run` and the command you have written will be executed when the files you specified will change. You can edit your configuration while the hot reloading is running.
 
 ## Known issues
 
