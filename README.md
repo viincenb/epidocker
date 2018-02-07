@@ -56,4 +56,8 @@ Once you have done this, you can run `epidocker run` and the command you have wr
 
 ## Known issues
 
-_Nothing here for now, report me your issues !_
+Error when launching graphical project
+
+## Todo
+
+Handle graphical projects
