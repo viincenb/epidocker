@@ -28,6 +28,18 @@ If you do not want to remove your container at exit, run `epidocker run --save`.
 
 You can delete a container with `epidocker delete [container name]` and you can go back in a created container by typing `epidocker run [container name]`.
 
+__Graphical project (BETA)__
+
+If you want to run a graphical project, just set the `--graphical` flag to true: `epidocker run --graphical`. Your project should run as expected.<br>
+This feature is a bit tricky and can not works on your machine. If you encounter any issues, please report it in the Issues section with as much informations as possible (like operating system and graphical drivers informations).<br>
+
+OS | Graphical driver type | Supported
+--- | --- | ---
+Ubuntu | Intel | Yes
+macOS | | Not yet
+
+_You can help me to fill this table by telling me if it worked for you or not_
+
 __Hot reloading__
 
 Do not run your compile command each time you did a change, epidocker will do it for you. You juste have to configure it a bit.<br>
