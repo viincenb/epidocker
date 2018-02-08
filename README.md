@@ -65,7 +65,3 @@ To activate the hot reloading, you have to specify it by setting `active: true` 
 Then you have to specify what command you want to run<br>
 and what files or directory to watch.<br>
 Once you have done this, you can run `epidocker run` and the command you have written will be executed when the files you specified will change. You can edit your configuration while the hot reloading is running.
-
-## Known issues
-
-_Nothing here for now, report me your issues !_
