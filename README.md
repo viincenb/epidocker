@@ -5,6 +5,7 @@ Current version __1.3.0__
 
 ## Install
 
+* Install Docker (https://docs.docker.com/install/#server)
 * Install the latest version of NodeJs (https://nodejs.org/en/download/package-manager/)<br>
 * Check that Node is installed by running `node --version`, you should have something like 8.* or 9.*.<br>
   - In case you don't have at least Node 8, run `sudo npm install -g n` and `n latest`. This should do the update.<br> 
