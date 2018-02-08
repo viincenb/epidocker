@@ -31,7 +31,7 @@ You can delete a container with `epidocker delete [container name]` and you can 
 
 __Graphical project (BETA)__
 
-If you want to run a graphical project, just set the `--graphical` flag to true: `epidocker run --graphical`. Your project should run as expected.<br>
+If you want to run a graphical project, just set the `--graphic` flag to true: `epidocker run --graphic`. Your project should run as expected.<br>
 This feature is a bit tricky and can not works on your machine. If you encounter any issues, please report it in the Issues section with as much informations as possible (like operating system and graphical drivers informations).<br>
 
 OS | Graphical driver type | Supported
