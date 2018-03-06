@@ -19,7 +19,7 @@ __1.4.3__
 - Epidocker Docker image has changed to allow graphical projects rendering. Be sure to use _devswoop/epidocker_ when you're using epidocker (Do not worry, the image is used by default by epidocker).
 - --graphic flag defaults to true
 
-__Run `epidocker update` a second time to update the Docker image !__
+__Run `epidocker update` a second time to update the Docker image if you got epidocker <= 1.4.3 !__
 
 ## Update
 
