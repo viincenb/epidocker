@@ -14,9 +14,12 @@ Current version __1.4.3__
 ## Changelog
 
 __1.4.3__
+
 - Update script now update epidocker Docker image
 - Epidocker Docker image has changed to allow graphical projects rendering. Be sure to use _devswoop/epidocker_ when you're using epidocker (Do not worry, the image is used by default by epidocker).
 - --graphic flag defaults to true
+
+__Run `epidocker update` a second time to update the Docker image !__
 
 ## Update
 
