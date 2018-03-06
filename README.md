@@ -57,13 +57,13 @@ Here a basic example:
  ```json
  {
 	"commands" : {
-		"refresh" : "make && ./my_binary arg1 arg2 ...",
-		"test" : "make test"
+		"refresh" : "clear && make && ./my_binary arg1 arg2 ...",
+		"test" : "clear && make test"
 	},
 	"hotreload" : {
 		"active" : true,
 		"command" : "refresh",
-		"watch" : ["src", "include", "Makefile"]
+		"watch" : ["src/*.c", "include/*.h", "Makefile"]
 	}
 }
 ```
