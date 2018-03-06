@@ -46,7 +46,7 @@ This feature is a bit tricky and can not works on your machine. If you encounter
 
 OS | GPU | Supported
 --- | --- | ---
-Ubuntu | Mesa DRI Intel(R) HD Graphics | Yes
+Ubuntu (maybe every Debian based OS ?) | Mesa DRI Intel(R) HD Graphics | Yes
 macOS | | Not yet
 
 _You can help me to fill this table by telling me if it worked for you or not_
