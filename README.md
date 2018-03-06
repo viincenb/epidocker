@@ -1,7 +1,7 @@
 ## epidocker
 Docker CLI wrapper for Epitech<br><br>
 
-Current version __1.4.0__
+Current version __1.4.3__
 
 ## Install
 
@@ -10,6 +10,13 @@ Current version __1.4.0__
 * Check that Node is installed by running `node --version`, you should have something like 8.* or 9.*.<br>
   - In case you don't have at least Node 8, run `sudo npm install -g n` and `n latest`. This should do the update.<br> 
 * Then you'll be able to `sudo npm install -g epidocker`<br>
+
+## Changelog
+
+__1.4.3__
+- Update script now update epidocker Docker image
+- Epidocker Docker image has changed to allow graphical projects rendering. Be sure to use _devswoop/epidocker_ when you're using epidocker (Do not worry, the image is used by default by epidocker).
+- --graphic flag defaults to true
 
 ## Update
 
@@ -31,12 +38,12 @@ You can delete a container with `epidocker delete [container name]` and you can 
 
 __Graphical project (BETA)__
 
-If you want to run a graphical project, just set the `--graphic` flag to true: `epidocker run --graphic`. Your project should run as expected.<br>
-This feature is a bit tricky and can not works on your machine. If you encounter any issues, please report it in the Issues section with as much informations as possible (like operating system and graphical drivers informations).<br>
+Just use `epidocker run`. Your project should run as expected.<br>
+This feature is a bit tricky and can not works on your machine. If you encounter any issues, please report it in the Issues section with as much informations as possible (like operating system and GPU informations).<br>
 
-OS | Graphical driver type | Supported
+OS | GPU | Supported
 --- | --- | ---
-Ubuntu | Intel | Yes
+Ubuntu | Mesa DRI Intel(R) HD Graphics | Yes
 macOS | | Not yet
 
 _You can help me to fill this table by telling me if it worked for you or not_
