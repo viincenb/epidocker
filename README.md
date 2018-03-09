@@ -1,7 +1,7 @@
 ## epidocker
 Docker CLI wrapper for Epitech<br><br>
 
-Current version __1.4.3__
+The current published version is __1.4.3__
 
 ## Install
 
@@ -13,10 +13,25 @@ Current version __1.4.3__
 
 ## Changelog
 
-__1.4.3__
+### 1.5.0 *"The multiple container update"*
+
+- You now have to confirm your action when you're using `epidocker run` on an existing container (to avoid unexpected action).
+- *New flag* --name allows you to choose the container name (`epidocker run --name my_container`)
+```
+/home/my_project> epidocker run
+*launches "my_project" container*
+
+/tmp/my_project> epidocker run
+"my_project" already exists, do you want to access it ? Y/n : CONFIRM HERE
+
+/tmp/my_project> epidocker run --name my_new_container
+*launches "my_new_container" container*
+```
+
+### 1.4.3 *"The graphic update"*
 
 - Update script now update epidocker Docker image
-- Epidocker Docker image has changed to allow graphical projects rendering. Be sure to use _devswoop/epidocker_ when you're using epidocker (Do not worry, the image is used by default by epidocker).
+- Epidocker Docker image has changed to allow graphical projects rendering. Be sure to use _devswoop/epidocker_ when you're using epidocker (Do not worry, this is the default image used by epidocker).
 - --graphic flag defaults to true
 
 __Run `epidocker update` a second time to update the Docker image if you got epidocker <= 1.4.3 !__
