@@ -14,9 +14,12 @@ Current version __1.4.3__
 ## Changelog
 
 __1.4.3__
+
 - Update script now update epidocker Docker image
 - Epidocker Docker image has changed to allow graphical projects rendering. Be sure to use _devswoop/epidocker_ when you're using epidocker (Do not worry, the image is used by default by epidocker).
 - --graphic flag defaults to true
+
+__Run `epidocker update` a second time to update the Docker image if you got epidocker <= 1.4.3 !__
 
 ## Update
 
@@ -43,7 +46,7 @@ This feature is a bit tricky and can not works on your machine. If you encounter
 
 OS | GPU | Supported
 --- | --- | ---
-Ubuntu | Mesa DRI Intel(R) HD Graphics | Yes
+Ubuntu (maybe every Debian based OS ?) | Mesa DRI Intel(R) HD Graphics | Yes
 macOS | | Not yet
 
 _You can help me to fill this table by telling me if it worked for you or not_
