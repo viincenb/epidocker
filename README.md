@@ -13,20 +13,10 @@ The current published version is __1.4.3__
 
 ## Changelog
 
-### 1.5.0 *"The multiple container update"*
+### 1.5.0 *Coming soon*
 
-- You now have to confirm your action when you're using `epidocker run` on an existing container (to avoid unexpected action).
+- Running `epidocker run` several times on a same project container creates new shell instances. The commands you will type will no longer be shared between every shell instances.
 - *New flag* --name allows you to choose the container name (`epidocker run --name my_container`)
-```
-/home/my_project> epidocker run
-*launches "my_project" container*
-
-/tmp/my_project> epidocker run
-"my_project" already exists, do you want to access it ? Y/n : CONFIRM HERE
-
-/tmp/my_project> epidocker run --name my_new_container
-*launches "my_new_container" container*
-```
 
 ### 1.4.3 *"The graphic update"*
 
