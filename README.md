@@ -1,7 +1,7 @@
 ## epidocker
 Docker CLI wrapper for Epitech<br><br>
 
-The current published version is __1.4.3__
+The current published version is __1.5.0__
 
 ## Install
 
@@ -13,7 +13,7 @@ The current published version is __1.4.3__
 
 ## Changelog
 
-### 1.5.0 *Coming soon*
+### 1.5.0 *"Multiple shells, one container"*
 
 - Running `epidocker run` several times on a same project container creates new shell instances. The commands you will type will no longer be shared between every shell instances.
 - *New flag* --name allows you to choose the container name (`epidocker run --name my_container`)
