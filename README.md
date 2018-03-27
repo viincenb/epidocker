@@ -1,7 +1,7 @@
 ## epidocker
 Docker CLI wrapper for Epitech<br><br>
 
-The current published version is __1.5.0__
+The current published version is __1.5.1__
 
 ## Install
 
@@ -12,6 +12,10 @@ The current published version is __1.5.0__
 * Then you'll be able to `sudo npm install -g epidocker`<br>
 
 ## Changelog
+
+### 1.5.1
+
+- The TERM environment variable is now sent to the container
 
 ### 1.5.0 *"Multiple shells, one container"*
 
