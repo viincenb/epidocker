@@ -1,7 +1,7 @@
 ## epidocker
 Docker CLI wrapper for Epitech<br><br>
 
-The current published version is __1.5.1__
+The current published version is __1.5.2__
 
 ## Install
 
@@ -12,6 +12,10 @@ The current published version is __1.5.1__
 * Then you'll be able to `sudo npm install -g epidocker`<br>
 
 ## Changelog
+
+### 1.5.2
+
+- Docker port binding system is now overloadable
 
 ### 1.5.1
 
